@@ -9,9 +9,9 @@ let fruitsOnTheTable = []; // array of new fruits from arrFruits
 let chosenFruits = []; // elements which we chose. len = counts
 let cards = 0; // sum of correct cards
 
-game(); // run the game
-
 const getNumber = (min, max) => Math.round(Math.random() * (max - min) + min);
+
+game(); // run the game
 
 function game() {
     let randomFruits = []; // list of our chosen fruits
